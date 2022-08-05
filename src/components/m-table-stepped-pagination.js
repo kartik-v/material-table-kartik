@@ -4,7 +4,7 @@ import Tooltip from "@mui/material/Tooltip";
 import Hidden from "@mui/material/Hidden";
 import Button from "@mui/material/Button";
 import PropTypes from "prop-types";
-import { withStyles } from "@mui/styles";
+import { withStyles } from "@mui/material/styles";
 import * as React from "react";
 /* eslint-enable no-unused-vars */
 

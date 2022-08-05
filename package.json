@@ -1,6 +1,6 @@
 {
-  "name": "mui-table",
-  "version": "2.0.0",
+  "name": "material-table-kartik",
+  "version": "0.0.5",
   "description": "Fork of datatable for React based on https://material-ui.com/api/table/ with additional features",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbrn/material-table.git"
+    "url": "git+https://github.com/kartik-v/material-table-kartik.git"
   },
   "keywords": [
     "react",
@@ -39,9 +39,9 @@
   "author": "Mehmet Baran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mbrn/material-table/issues"
+    "url": "https://github.com/kartik-v/material-table-kartik/issues"
   },
-  "homepage": "https://github.com/kartik-v/mui-table#readme",
+  "homepage": "https://github.com/kartik-v/material-table-kartik#readme",
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.4.4",
@@ -52,7 +52,6 @@
     "@babel/preset-react": "7.0.0",
     "@mui/material": "^5.9.3",
     "@mui/lab": "^5.0.0-alpha.93",
-    "@mui/styles": "5.5.0",
     "babel-eslint": "10.0.1",
     "babel-loader": "8.0.4",
     "babel-polyfill": "6.26.0",
@@ -77,16 +76,16 @@
     "webpack-dev-server": "3.1.10"
   },
   "dependencies": {
-    "@date-io/date-fns": "2.13.1",
+    "@date-io/date-fns": "^2.14.0",
     "@emotion/styled": "^11.9.3",
-    "classnames": "2.2.6",
-    "date-fns": "2.28.0",
-    "debounce": "1.2.0",
-    "fast-deep-equal": "2.0.1",
-    "filefy": "0.1.10",
-    "jspdf": "2.1.0",
-    "jspdf-autotable": "3.5.9",
-    "prop-types": "15.6.2",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.28.0",
+    "debounce": "^1.2.0",
+    "fast-deep-equal": "^2.0.1",
+    "filefy": "^0.1.10",
+    "jspdf": "^2.5.0",
+    "jspdf-autotable": "^3.5.25",
+    "prop-types": "^15.6.2",
     "react-beautiful-dnd": "13.1.0",
     "react-double-scrollbar": "0.0.15"
   },
@@ -94,7 +93,6 @@
     "@date-io/core": "^2.13.1",
     "@mui/material": "^5.9.3",
     "@mui/lab": "^5.0.0-alpha.93",
-    "@mui/styles": "^5.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

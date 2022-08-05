@@ -3,7 +3,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import TableCell from "@mui/material/TableCell";
 import CircularProgress from "@mui/material/CircularProgress";
-import { withTheme } from "@mui/styles";
+import { withTheme } from "@mui/material/styles";
 import { MTable } from "..";
 /* eslint-enable no-unused-vars */
 
