@@ -1,7 +1,7 @@
 {
-  "name": "material-table",
+  "name": "mui-table",
   "version": "2.0.0",
-  "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
+  "description": "Fork of datatable for React based on https://material-ui.com/api/table/ with additional features",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -41,7 +41,7 @@
   "bugs": {
     "url": "https://github.com/mbrn/material-table/issues"
   },
-  "homepage": "https://github.com/mbrn/material-table#readme",
+  "homepage": "https://github.com/kartik-v/mui-table#readme",
   "devDependencies": {
     "@babel/cli": "7.1.2",
     "@babel/core": "7.4.4",
@@ -50,8 +50,8 @@
     "@babel/plugin-transform-runtime": "7.1.0",
     "@babel/preset-env": "7.2.0",
     "@babel/preset-react": "7.0.0",
-    "@mui/material": "^5.5.0",
-    "@mui/lab": "^5.0.0-alpha.72",
+    "@mui/material": "^5.9.3",
+    "@mui/lab": "^5.0.0-alpha.93",
     "@mui/styles": "5.5.0",
     "babel-eslint": "10.0.1",
     "babel-loader": "8.0.4",
@@ -92,7 +92,7 @@
   },
   "peerDependencies": {
     "@date-io/core": "^2.13.1",
-    "@mui/material": "^5.5.0",
+    "@mui/material": "^5.9.3",
     "@mui/lab": "^5.0.0-alpha.93",
     "@mui/styles": "^5.5.0",
     "react": "^18.2.0",
